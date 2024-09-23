@@ -29,6 +29,7 @@
   "telescope-cmdline.nvim": { "branch": "main", "commit": "1c6a169d84a5e8f0c796f8275bdbb8019bd3ca14" },
   "telescope.nvim": { "branch": "master", "commit": "5972437de807c3bc101565175da66a1aa4f8707a" },
   "ui": { "branch": "v2.5", "commit": "a9ec38310161a27f5833f2ecd0db6620a32b7959" },
+  "vim-prisma": { "branch": "main", "commit": "95c5b25066efb34c75bce78698baa371fe0ee7c2" },
   "vim-tmux-navigator": { "branch": "master", "commit": "5b3c701686fb4e6629c100ed32e827edf8dad01e" },
   "which-key.nvim": { "branch": "main", "commit": "6c1584eb76b55629702716995cca4ae2798a9cca" }
 }

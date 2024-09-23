@@ -4,7 +4,7 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 local null_ls = require "null-ls"
 -- EXAMPLE
-local servers = { "html", "cssls", "tsserver", "tailwindcss", "eslint", "emmet_ls" }
+local servers = { "html", "cssls", "tsserver", "tailwindcss", "eslint", "emmet_ls", "prismals"}
 local nvlsp = require "nvchad.configs.lspconfig"
 local command = vim.api.nvim_create_user_command
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})

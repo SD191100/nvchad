@@ -6,7 +6,6 @@ return {
       "javascript",
       "typescript",
       "tsx",
-      "go",
     },
   },
 }

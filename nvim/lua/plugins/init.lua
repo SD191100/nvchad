@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
--- event = 'BufWritePre', -- uncomment for format on save
+    -- event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -21,11 +21,16 @@ return {
         "eslint-lsp",
         "emmet-ls",
         "prettierd",
+        "gopls",
+        "prisma-language-server",
       },
     },
     config = function()
       require("mason").setup()
     end,
+  },
+  {
+    'prisma/vim-prisma'
   },
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
